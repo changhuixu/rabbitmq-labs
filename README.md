@@ -10,6 +10,14 @@ This is the code repository for the demos described in my Medium articles.
 >
 > This blog covers demos 01 and 02.
 
+### 2. [Get Started with RabbitMQ 2: Consume Messages Using Hosted Service](https://codeburst.io/get-started-with-rabbitmq-2-consume-messages-using-hosted-service-e7e6a20b15a6)
+
+> How to implement an asynchronous RabbitMQ consumer as an ASP.NET Core hosted service, and how to run the consumer in a Docker container.
+
+### 3. [Get Started with RabbitMQ 3: Multi-Container App](https://codeburst.io/get-started-with-rabbitmq-3-multi-container-app-361a12028c87)
+
+> Publish RabbitMQ messages in an ASP.NET Core Web API project, consume messages using a worker service, and run a multi-container application with Docker Compose.
+
 ## Demos
 
 ### [Demo 01](./01_Server-named_Queues)
@@ -31,3 +39,7 @@ This demo also includes an example `docker-compose.yml` for the worker service a
 ### [Demo 04](./04_MultiContainers)
 
 This demo includes a Web API project as the message publisher, and a Worker Service project as the message consumer. The API project and Worker Service project are connected by a RabbitMQ service. The `docker-compose.yml` orchestra these services in containers.
+
+### [Demo 05](./05_AuditQueue)
+
+This demo includes all services in demo 04, and adds an audit queue service, plus a MongoDB database to persist messages.

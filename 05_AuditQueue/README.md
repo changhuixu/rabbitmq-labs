@@ -25,3 +25,9 @@ ops1:ops1 (msg consumer account)
 ```
 
 ![rabbitmq starter](./rabbitmq-starter.gif)
+
+## Notes
+
+1. MongoDB mount /data/db issues
+   - [mongo issue #74](https://github.com/docker-library/mongo/issues/74)
+   - [StackExchange question](https://dba.stackexchange.com/questions/186478/mongodb-refuse-to-start-operation-not-permitted)
