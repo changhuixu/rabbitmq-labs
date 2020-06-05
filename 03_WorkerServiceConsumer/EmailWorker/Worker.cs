@@ -32,8 +32,8 @@ namespace EmailWorker
             {
                 HostName = rabbitHostName ?? "localhost",
                 Port = 5672,
-                UserName = "ops0",
-                Password = "ops0",
+                UserName = "ops1",
+                Password = "ops1",
                 DispatchConsumersAsync = true
             };
             _connection = _connectionFactory.CreateConnection();
