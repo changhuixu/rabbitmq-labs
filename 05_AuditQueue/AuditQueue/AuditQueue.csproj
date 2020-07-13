@@ -6,8 +6,8 @@
 
   <ItemGroup>
     <PackageReference Include="MongoDB.Driver" Version="2.10.4" />
-    <PackageReference Include="RabbitMQ.Client" Version="6.0.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.4.1" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
   </ItemGroup>
 
 </Project>
